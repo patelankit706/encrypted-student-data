@@ -1,7 +1,9 @@
 
+#Encrypted Student Data
+
 Hello Users
 
-This student registration program saves the student details in a format which are encrypted using their password and visible to the database administrator in encrypted format i.e DBA cannot view original data.
+This student registration program saves the student details in a format which are encrypted using their password and visible to the database administrator only in encrypted format i.e DBA cannot view original data.
 
 
 Dependencies:
@@ -18,8 +20,6 @@ Pre-Configuration:
   2: Create database using query "Create database Testdb;"
   3: Create table using query "create table Students(rollno varchar(50) primary key,name varchar(100),pass varchar(150),mob varchar(50),sex varchar(50),city varchar(50));"
   4: Run configure.py using command 'python configure.py'
-  (**Run this command inside studentRegs directory)
-
 
 Run : 
   1: Run program using command "python main_program.py"
