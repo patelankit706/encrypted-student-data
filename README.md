@@ -3,7 +3,7 @@
 
 ## Hello Users
 
-This student registration program saves the student details in a format which are encrypted using their password and visible to the database administrator only in encrypted format i.e DBA cannot view original data.
+This student registration program saves the student details in a format which are encrypted using their login password and database administrator cannot view original data as their login password is SHA512 encrypted
 
 
 ## Dependencies:
